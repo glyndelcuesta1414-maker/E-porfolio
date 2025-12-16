@@ -1,0 +1,72 @@
+<!-- =======================
+FILE: skills.html
+======================= -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skills</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="glyndel.html"><i class="fa fa-house"></i> Home</a></li>
+<li><a href="education.html"><i class="fa fa-graduation-cap"></i> Education</a></li>
+<li><a href="skill.html"><i class="fa fa-code"></i> Skills</a></li>
+<li><a href="project.html"><i class="fa fa-folder-open"></i> Projects</a></li>
+<li><a href="reflection.html"><i class="fa fa-book"></i> Reflections</a></li>
+<li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+    <li><a href="certificates.html"><i class="fa fa-certificate"></i> Certificates</a></li>
+
+  </ul>
+</nav>
+
+  <div class="container">
+  <h1 class="page-title">My Skills</h1>
+  <!-- your content here -->
+</div>
+
+  
+<div class="projects">
+  <div class="container fade">
+  <div class="card">
+    <i class="fa fa-store"></i>
+    <h3>WEB SKILL</h3>
+    <p>•HTML, CSS, JAVASCRIPT, PHYTON.</p>
+  <p> •basic Database management </p>
+    <p>•PHP My Sql</p>
+    <p>•Github</p>
+  </div>
+    </div>
+  
+  <div class="projects">
+  <div class="container fade">
+  <div class="card">
+    <i class="fa fa-store"></i>
+    <h3>SOFT SKILL</h3>
+    <p>•Responsibility and Reliability</p>
+    <p>•adoptability</p>
+    <p>•Problem solving</p>
+    <p>•Work Ethic</p>
+    <p>•leadership</p>
+  </div>
+    </div>
+  </div>
+  
+  
+<script>
+const links = document.querySelectorAll('nav a');
+const current = location.href;
+
+links.forEach(link => {
+  if(link.href === current){
+    link.classList.add('active');
+  }
+});
+</script>
+
+
+</body>
+</html>

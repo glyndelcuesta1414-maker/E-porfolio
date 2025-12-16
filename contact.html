@@ -1,0 +1,61 @@
+<!-- =======================
+FILE: contact.html
+======================= -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="glyndel.html"><i class="fa fa-house"></i> Home</a></li>
+<li><a href="education.html"><i class="fa fa-graduation-cap"></i> Education</a></li>
+<li><a href="skill.html"><i class="fa fa-code"></i> Skills</a></li>
+<li><a href="project.html"><i class="fa fa-folder-open"></i> Projects</a></li>
+<li><a href="reflection.html"><i class="fa fa-book"></i> Reflections</a></li>
+<li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+    <li><a href="certificates.html"><i class="fa fa-certificate"></i> Certificates</a></li>
+
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>Contact & References</h1>
+  <p>Email: glyndelcuesta2005@gmail.com</p>
+  <p>Contact number: 09934544330/0954503274</p>
+</div>
+  
+  <div class="social-media">
+  <h1 style="text-align: center;">Connect with Me</h1>
+  <p class="subtitle">You can reach me through these platforms:</p>
+  <div class="social-links">
+    <a href="https://www.facebook.com/share/1GYZki8R9a/" target="_blank">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="https://github.com/YourProfile" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.instagram.com/_glyndz?igsh=c2oxZGhxaWxlOGFq" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+  </div>
+</div>
+
+  <script>
+const links = document.querySelectorAll('nav a');
+const current = location.href;
+
+links.forEach(link => {
+  if(link.href === current){
+    link.classList.add('active');
+  }
+});
+</script>
+
+  
+</body>
+</html>

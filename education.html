@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Education</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="glyndel.html"><i class="fa fa-house"></i> Home</a></li>
+<li><a href="education.html"><i class="fa fa-graduation-cap"></i> Education</a></li>
+<li><a href="skill.html"><i class="fa fa-code"></i> Skills</a></li>
+<li><a href="project.html"><i class="fa fa-folder-open"></i> Projects</a></li>
+<li><a href="reflection.html"><i class="fa fa-book"></i> Reflections</a></li>
+<li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+    <li><a href="certificates.html"><i class="fa fa-certificate"></i> Certificates</a></li>
+
+  </ul>
+</nav>
+  <div class="container">
+  <h1 class="page-title">Educational Background</h1>
+
+  <!-- your content here -->
+</div>
+
+<div class="container">
+  <h1>COLLOGE</h1>
+  <p><b>Course:</b> Bachelor of Science in Information Technology</p>
+  <p><b>School:</b> Collegio de momtalban</p>
+  <p><b>YEAR:</b> 2ND YEAR</p>
+</div>
+  
+  <div class="container">
+  <h1>SENIOR HIGH SCHOOL</h1>
+  <p><b>TRAND:</b> INFORMATION COMMUNICATION TECHNOLOGY</p>
+  <p><b>School:</b> ASIAN IMSTITUTE OF.COMPITER STUDY</p>
+  <p><b>YEAR OF GRADUATED:</b> 2022-2024</p>
+</div>
+  
+  <div class="container">
+  <h1>HIGH SCHOOL</h1>
+  <p><b>School:</b> KASIGLAHAN VILLAGE NATIONAL HIGH SCHOOL</p>
+  <p><b>YEAR OF.GRADUATED:</b> 2018-2022</p>
+</div>
+  
+  <div class="container">
+  <h1>ELEMENTARY SCHOOL</h1>
+  <p><b>School:</b> KASIGLAJAN VILLAGE ELEMEMTARY SCHOOL</p>
+  <p><b>YEAR OF GRADUATED:</b> 2012-2018</p>
+</div>
+  <script>
+const links = document.querySelectorAll('nav a');
+const current = location.href;
+
+links.forEach(link => {
+  if(link.href === current){
+    link.classList.add('active');
+  }
+});
+</script>
+
+</body>
+</html>

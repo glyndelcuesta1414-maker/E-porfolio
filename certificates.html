@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificates</title>
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <ul>
+    <li><a href="glyndel.html"><i class="fa fa-house"></i> Home</a></li>
+    <li><a href="education.html"><i class="fa fa-graduation-cap"></i> Education</a></li>
+    <li><a href="skill.html"><i class="fa fa-code"></i> Skills</a></li>
+    <li><a href="project.html"><i class="fa fa-folder-open"></i> Projects</a></li>
+    <li><a href="reflection.html"><i class="fa fa-book"></i> Reflections</a></li>
+    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+    <li><a href="certificate.html" class="active"><i class="fa fa-certificate"></i> Certificates</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container fade">
+  <h1 class="page-title">Certificates & Trainings</h1>
+  <p class="subtitle">These are the certificates I earned from trainings and online courses.</p>
+
+  <div class="projects">
+    <div class="card">
+      <img src="certificates1.png" alt="Certificate 1" class="cert-img">
+      <h3>Basic Web Development</h3>
+      <p>HTML</p>
+      <small>Year: 2025</small>
+    </div>
+
+    <div class="card">
+      <img src="certificates2.png" alt="Certificate 2" class="cert-img">
+      <h3>Basic Web Development</h3>
+      <p>CSS</p>
+      <small>Year: 2025</small>
+    </div>
+
+    <div class="card">
+      <img src="certificates3.png" alt="Certificate 3" class="cert-img">
+      <h3>Basic Web Development</h3>
+      <p>JavaScript</p>
+      <small>Year: 2025</small>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 Glyndel Cuesta
+</footer>
+
+<!-- HIGHLIGHT ACTIVE NAV LINK -->
+<script>
+const links = document.querySelectorAll('nav a');
+const current = window.location.href;
+
+links.forEach(link => {
+  if(link.href === current){
+    link.classList.add('active');
+  }
+});
+</script>
+
+</body>
+</html>
